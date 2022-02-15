@@ -10,13 +10,12 @@ class man{
 	$this->age = $age;
 	$this->height = $height;
 	}		
-	function info(){
-	echo "Name:".$this->name."Age:".$this->age."Height".$this->height; 
+	function __destruct(){
+	echo "Name:".$this->name."<br/>"."Age:".$this->age."<br/>"."Height".$this->height; 
 	}
 }
 
 $obj = new man("munna",23,5.6);
-$obj->info();
 
 ?>
 
