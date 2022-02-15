@@ -11,7 +11,7 @@ class man{
 	$this->height = $height;
 	}	
     protected function info(){
-	  return "Name: ".$this->name."age: ".$this->age."height: ".$this->height;
+	  return "Name".$this->name."age".$this->age."height".$this->height;
 	}
 }
 class monjur extends man{
