@@ -16,7 +16,6 @@ class man{
 }
 
 $obj = new man("munna",23,5.6);
-$obj->info();
 
 ?>
 
